@@ -1,0 +1,19 @@
+
+.listWrapper{
+    box-sizing: border-box;
+    background-color: linen;
+    margin: 0;
+    min-width: 800px;
+    padding: 0 30px 0;
+}
+
+.item{
+    border: 2px solid #8900F2;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+
+.item + .item{
+    margin-top: 20px;
+}

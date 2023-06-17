@@ -1,0 +1,19 @@
+
+
+.formWrapper{
+    max-width: 260px;
+}
+
+.form{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: azure;
+    color: #000000;
+    margin: 0;
+}
+
+.imgList img{
+    max-width: 300px;
+    max-height: 250px;
+    object-fit: cover;
+}
