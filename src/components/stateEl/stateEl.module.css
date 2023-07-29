@@ -1,4 +1,4 @@
-.elWrapper{
+.elWrapper {
     box-sizing: border-box;
     padding: 14px;
     position: absolute;
@@ -11,9 +11,39 @@
     right: -150px;
 }
 
-.elSubTitle{
+.elSubTitle {
     margin-top: 20px;
     font-size: 18px;
     line-height: 100%;
     display: block;
+}
+
+@media(max-width: 1340px) {
+    .elWrapper {
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: auto;
+    }
+}
+
+@media(max-width: 1020px) {
+    .elWrapper {
+        width: 190px;
+        min-height: 250px;
+    }
+}
+
+@media(max-width: 870px) {
+    .elWrapper {
+        max-width: 370px;
+        width: 100%;
+        min-height: 140px;
+        bottom: -70px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: auto;
+        transform: translateY(none);
+    }
 }
