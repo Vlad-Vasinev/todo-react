@@ -1,0 +1,12 @@
+
+.svgWrapper{
+    position: relative;
+    margin: 0 auto;
+    max-width: max-content;
+}
+
+svg path:hover {
+    fill: red !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
