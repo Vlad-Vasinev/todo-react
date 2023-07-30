@@ -14,6 +14,7 @@ const SvgFile = () => {
     function svgClick (e) {
         states.forEach(element => {
            if (element.id === e.target.id) {
+                e.target.style.fill = "#F99500";
                 setName(element.name);
                 setId(element.id);
                 setPopulation(element.population);
